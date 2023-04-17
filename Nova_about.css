@@ -259,6 +259,12 @@ footer{
    transition: all .5s ease-in-out;
 }
 @media (max-width: 700px){
+   .text-box{
+      width: 60%;
+      position: absolute;
+      top: 52%;
+      left: 50%;
+   }
    .text-box h1{
        font-size: 20px;
    }
