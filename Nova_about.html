@@ -13,7 +13,7 @@
 <body id="about" class="prevent-select">
 <section class="header">
     <nav>
-        <a href="Nova_landingpagem.html"><img src="logo.png" alt="Nova's logo"></a>
+        <a href="Nova_landingpagem.html"><img src="logo.png" alt="Nerve-ana's logo"></a>
         <div class="nav-links"  id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -95,9 +95,8 @@
                Jhaztin Rodriguez & Jeph Viloria</p>
         </div>
     </div>
-    <section class="location">
-    <h1>Location</h1>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.556450174231!2d121.03452297428325!3d14.62432517649703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b597883da7%3A0xe13c8c379509f32a!2sAPEC%20Schools%20-%20New%20Manila!5e0!3m2!1sen!2sph!4v1681662993274!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="discussion">
+        <h1 id="contact">Contact Us</h1>
     </section>
     <section class="contact-us">
         <div class="row">
@@ -112,15 +111,31 @@
                 <div>
                     <i class="fa fa-envelope" onclick="showMenu()"></i>  
                     <span>
-                        <h5>xample@apecschools.edu.ph</h5>
+                        <h5>ap.samanthamay.mangalindan@apecschools.edu.ph</h5>
                         <p>Email us for any inquiries</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-calendar" onclick="showMenu()"></i>  
+                    <span>
+                        <h5>2nd of May 8 a.m. to 4 p.m.  |  5th of May 8 a.m. to 12 p.m.</h5>
+                        <p>Open hours</p>
                     </span>
                 </div>
             </div>
             <div class="contact-col">
-                
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn2">Send Message</button>
+                </form>
             </div>
         </div>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.556450174231!2d121.03452297428325!3d14.62432517649703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b597883da7%3A0xe13c8c379509f32a!2sAPEC%20Schools%20-%20New%20Manila!5e0!3m2!1sen!2sph!4v1681662993274!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <script>
         var navLinks = document.getElementById("navLinks");
