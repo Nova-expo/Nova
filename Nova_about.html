@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA | About</title>
+    <link rel="logo icon" href="Logoi.png"/>
+    <link rel="stylesheet" href="Nova_about.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="about" class="prevent-select">
+<section class="header">
+    <nav>
+        <a href="Nova_landingpagem.html"><img src="Logo.png" alt="Nerve-ana's logo"></a>
+        <div class="nav-links"  id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="NOVA_landingpagem.html" class="hm">Home</a></li>
+              <li><a href="Nova_trailer.html" class="tr">Trailer</a></li>
+              <li><a href="Nova_posters.html" class="ptrs">Posters</a></li>
+              <li><a href="Nova_about.html" class="abt">About</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+        </div>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>About Our Project</h1>
+            <p>NOVA is Science and Innovation Expo presented by Grade 12 students of APEC Schools-NEW MANILA. 
+               The event will be held on May 2, from 8 a.m. to 4 p.m. and on May 5, from 9 a.m. to 12 p.m. 
+               NOVA showcases different projects from Engineering to Science. Attendees will have the opportunity
+               to explore exhibits and attend interactive demonstrations. Don't miss out on this exciting opportunity
+               to discover the future at NOVA!</p>
+            <a href="" class="btn">Visit The Expo</a>  
+        </div>
+        <div class="about-col">
+            <img src="Bannerabout.gif" alt="logo of Nerve-Ana">
+        </div>
+    </div>
+</section>
+<section class="discussion">
+    <h1>Team Nova</h1>
+    <p id="novad">"Innovative, diverse, and passionate team showcasing science & technology."</p>
+    <div class="row">
+        <div class="discussion-col">
+            <h3 >Trailer Editor</h3>
+            <p>John Benedict Biñas<br>
+               Rona Gomeseria & Anasha Moncada
+            </p>
+        </div>
+        <div class="discussion-col">
+            <h3>Website Developer</h3>
+            <p>Chesca Agasino</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Invitation Designer</h3>
+            <p>Chezca Mercene<br>Grace Zapanta</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Invitation Printers</h3>
+            <p>Nathan Reyes <br> Aianna Tablac</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Email Composer</h3>
+            <p>John Benedict Biñas & Kristine Bandiez<br>
+                Samantha Mangalindan & Aianna Tablac</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Campaign Materials</h3>
+            <p>Leslie Amasan <br> Phoebe  Ballescas</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Campaign Presentors <br>(onsite)</h3>
+            <p>Jena Sarandi & Oliver Vegino<br>
+               Sean Reyes & Isagani Iii Victoria<br>
+               Kenneth Sablay &  Nevaeh Sena</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Campaign Presentors 1<br>(online)</h3>
+            <p>Channel Hipolito & Alicia Palada<br>
+               Felcy Lapuz  & Florence Milar<br>
+               Kenneth Sablay & Nevaeh Sena</p>
+        </div>
+        <div class="discussion-col">
+            <h3>Campaign Presentors 2<br>(online)</h3>
+            <p>Mariah Casanova & Levy Romero<br>
+               Grace Zapanta & Anasha Moncada<br>
+               Jhaztin Rodriguez & Jeph Viloria</p>
+        </div>
+    </div>
+    <section class="location">
+    <h1>Location</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.556450174231!2d121.03452297428325!3d14.62432517649703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b597883da7%3A0xe13c8c379509f32a!2sAPEC%20Schools%20-%20New%20Manila!5e0!3m2!1sen!2sph!4v1681662993274!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" onclick="showMenu()"></i>  
+                    <span>
+                        <h5>AL Building, Lot 2 Campanilla</h5>
+                        <p>New Manila, Lungsod Quezon, Kalakhang Maynila</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope" onclick="showMenu()"></i>  
+                    <span>
+                        <h5>xample@apecschools.edu.ph</h5>
+                        <p>Email us for any inquiries</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    <section class="footer">
+        <p id="credit"> Website built by CHESCA &copy; All rights reserved 2023</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA | Trailer</title>
+    <link rel="logo icon" href="Logoi.png"/>
+    <link rel="stylesheet" href="Nova_trailer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="trailer" class="prevent-select">
+<section class="header">
+    <nav>
+        <a href="Nova_landingpagem.html"><img src="Logo.png" alt="Nerve-ana's logo"></a>
+        <div class="nav-links"  id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="NOVA_landingpagem.html" class="hm">Home</a></li>
+                <li><a href="Nova_trailer.html" class="tr">Trailer</a></li>
+                <li><a href="Nova_posters.html" class="ptrs">Posters</a></li>
+                <li><a href="Nova_about.html" class="abt">About</a></li>
+              </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Welcome!</h1>
+    </div>
+</section>
+<section class="trailer">
+    <h1>Are You Ready?</h1>
+    <div class="row">
+        <div class="trailer-col">
+            <video width="500" height="340" controls>
+                <source src="Trailer.mp4" type="video/mp4" class="vid">
+                  Your browser does not support this video
+              </video>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <p id="credit"> Website built by CHESCA &copy; All rights reserved 2023</p>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0"
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>

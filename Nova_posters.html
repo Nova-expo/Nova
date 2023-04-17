@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA | Posters</title>
+    <link rel="logo icon" href="Logoi.png"/>
+    <link rel="stylesheet" href="Nova_posters.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="posters" class="prevent-select">
+<section class="header">
+    <nav>
+        <a href="Nova_landingpagem.html"><img src="Logo.png" alt="Nerve-ana's logo"></a>
+        <div class="nav-links"  id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="NOVA_landingpagem.html" class="hm">Home</a></li>
+                <li><a href="Nova_trailer.html" class="tr">Trailer</a></li>
+                <li><a href="Nova_posters.html" class="ptrs">Posters</a></li>
+                <li><a href="Nova_about.html" class="abt">About</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Who To Visit?</h1>
+    </div>
+</section>
+<section class="game">
+    <h1>Available Booths</h1>
+    <div class="row">
+        <div class="game-col">
+            <a href=""><img src="1.png" alt="Group 1"></a>
+        </div>
+        <div class="game-col">
+            <a href=""><img src="2.gif" alt="Group 2"></a>
+        </div> <div class="game-col">
+            <a href=""><img src="3.GIF" alt="Group 3"></a>
+        </div>
+        <div class="game-col">
+            <a href=""><img src="4.gif" alt="Group 4"></a>
+        </div>
+        <div class="game-col">
+            <a href=""><img src="5.gif" alt="Group 5"></a>
+        </div> 
+        <div class="game-col">
+            <a href="Nova_about.html"><img src="6.png" alt="Group 6"></a>
+        </div>
+        <div class="game-col">
+            <a href="Nova_about.html"><img src="7.PNG" alt="Group 7"></a>
+        </div>
+        <div class="game-col">
+            <a href="Nova_about.html"><img src="8.png" alt="Group 8"></a>
+        </div>
+        <div class="game-col">
+            <a href="Nova_about.html"><img src="9.png" alt="Group 9"></a>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <p id="credit"> Website built by CHESCA &copy; All rights reserved 2023</p>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0"
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
