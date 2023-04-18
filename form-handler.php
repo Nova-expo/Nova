@@ -11,7 +11,7 @@ $email_body = "User Name: $name. \n".
               "Subject: $subject\n".
               "User Message: $message. \n".;
 
-$to = 'ap.samanthamay.mangalindan@apecschools.edu.ph'
+$to = 'ap.galefranchesca.agasino@apecschools.edu.ph'
 $headers = "From: $email_from \r\n"
 $headers . = "Reply-To: $visitor_email \r\n"
 
